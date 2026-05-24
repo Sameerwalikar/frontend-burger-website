@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="content">
+<h2>Hostel Admission Form</h2>
+
+<form action="#" method="post">
+
+    <fieldset>
+        <legend>Student Details</legend>
+
+        Name: <input type="text" name="sname"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="text" name="phone"><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        Course & Year:
+        <select name="course">
+            <option>Select</option>
+            <option>B.Tech 1st Year</option>
+            <option>B.Tech 2nd Year</option>
+            <option>B.Tech 3rd Year</option>
+            <option>B.Tech 4th Year</option>
+        </select><br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Accommodation Details</legend>
+
+        Parent Contact: <input type="text" name="parent"><br><br>
+
+        Room Preference:<br>
+        <input type="radio" name="room" value="Single"> Single<br>
+        <input type="radio" name="room" value="Shared"> Shared<br><br>
+
+        Food Preference:<br>
+        <input type="checkbox" name="food" value="Veg"> Veg<br>
+        <input type="checkbox" name="food" value="Non-Veg"> Non-Veg<br><br>
+
+        Address:<br>
+        <textarea name="address" rows="4" cols="40"></textarea><br><br>
+
+    </fieldset>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+
+</form>
+
+</body>
+</html>
